@@ -14,7 +14,7 @@ jQuery(document).ready(function ($) {
         }
 
         var invertLogoColor = function () {
-            $(".dark-mode .header-top .logo img").css("filter", "invert(1)");
+            $(".dark-mode .header-top .logo img").css("filter", "brightness(0) invert(1)");
         }
         var invertWebsiteColor = function(baseColor, grayColor, textColor) {
             var styleElement = document.createElement('style');
